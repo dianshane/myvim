@@ -2,7 +2,8 @@
 
 My *AWESOME* vimrc and coc configuration file!!!!!
 
-****OVERVIEW
+*OVERVIEW
+
 Vim plugins(using plug):
 - vim-man
 - nerdtree
