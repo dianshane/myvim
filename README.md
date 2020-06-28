@@ -2,14 +2,15 @@
 
 My *AWESOME* vimrc and coc configuration file!!!!!
 
-*OVERVIEW
+##OVERVIEW
 
-Vim plugins(using plug):
+###Vim plugins(using plug):
 - vim-man
 - nerdtree
 - polyglot
 - coc 
 
-Colorscheme:gruvbox
+###colorscheme
+- gruvbox
 
-NOTE: the configuration for coc was just copied and dumped from the internet and propably could be better.
+NOTE: the configuration for coc was just copied and dumped from the internet and could probably be better.
