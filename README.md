@@ -1,4 +1,4 @@
-# Vim
+# MyVim
 
 My *AWESOME* vimrc and coc configuration file!!!!!
 
@@ -14,5 +14,14 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 ### colorscheme
 
 - gruvbox
+
+### Coc extensions:
+
+- spell checker
+- snippets
+- vimlsp
+- cmake
+- clangd
+- markdown
 
 NOTE: the configuration for coc was just copied and dumped from the internet and could probably be better.
