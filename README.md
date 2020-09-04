@@ -9,6 +9,7 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 - vim-man
 - nerdtree
 - polyglot
+- vim-cpp
 - coc 
 
 ### colorscheme
@@ -24,5 +25,6 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 - coc-cmake
 - coc-clangd
 - coc-markdownlint
+- coc-json
 
 NOTE: the configuration for coc was just copied and dumped from the internet and could probably be better.
