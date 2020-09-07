@@ -10,12 +10,9 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 - nerdtree
 - polyglot
 - vim-cpp
-<<<<<<< HEAD
 - jsonc
 - vim-rainbow
 - nerdcommenter
-=======
->>>>>>> 06a31fb6a83d448b062e73929319d761edf8bbd3
 - coc 
 
     Since it is suggented by the developers of coc I also use vim-lsp-cxx-highlights.
