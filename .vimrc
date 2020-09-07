@@ -7,7 +7,7 @@ syntax on
 "SET PARAMS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-""GENERAL
+"GENERAL
 set history=200
 set title
 set showcmd
@@ -18,11 +18,10 @@ set shortmess+=c
 
 ""EDITOR
 set nocompatible
-set paste
 set nu
 set backspace=indent,eol,start
 set nowrap
-set tabstop=4 softtabstop=4
+set tabstop=4 softtabstop=8
 set shiftwidth=4
 set ruler
 set noerrorbells
@@ -62,11 +61,15 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-utils/vim-man'
 	Plug 'https://github.com/preservim/nerdtree.git'
 	Plug 'sheerun/vim-polyglot'
+	Plug 'vim-jp/vim-cpp'
+	Plug 'neoclide/jsonc.vim'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+    Plug 'frazrepo/vim-rainbow'
+    Plug 'preservim/nerdcommenter'
+    
 ""COC AUTOCOMPLETE REQUIREMENTS
-"    Plug 'jackguo380/vim-lsp-cxx-highlight'
-
+    Plug 'jackguo380/vim-lsp-cxx-highlight'
+    
 ""COLORS
 	Plug 'gruvbox-community/gruvbox'
 
@@ -74,9 +77,10 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""REMAPPING NERDTREE
+""REMAPS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map ` :NERDTree <CR>
+let mapleader=" "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""PLUGIN CONFIG
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

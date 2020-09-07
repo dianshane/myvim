@@ -9,7 +9,13 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 - vim-man
 - nerdtree
 - polyglot
+- vim-cpp
+- jsonc
+- vim-rainbow
+- nerdcommenter
 - coc 
+
+    Since it is suggented by the developers of coc I also use vim-lsp-cxx-highlights.
 
 ### colorscheme
 

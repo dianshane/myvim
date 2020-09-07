@@ -40,6 +40,11 @@
           "default": false,
           "description": "Disable completion feature for this languageserver."
         },
+        "formatterPriority": {
+          "type": "number",
+          "default": 0,
+          "description": "Priority of this languageserver's fomatter."
+        },
         "env": {
           "type": "object",
           "default": null,
@@ -136,6 +141,7 @@
         "disableDynamicRegister": {},
         "disableDiagnostics": {},
         "disableCompletion": {},
+        "formatterPriority": {},
         "enable": {},
         "rootPatterns": {},
         "requireRootPattern": {},
@@ -200,6 +206,7 @@
         "disableSnippetCompletion": {},
         "disableDiagnostics": {},
         "disableCompletion": {},
+        "formatterPriority": {},
         "rootPatterns": {},
         "requireRootPattern": {},
         "ignoredRootPaths": {},
@@ -250,6 +257,7 @@
         "disableSnippetCompletion": {},
         "disableDiagnostics": {},
         "disableCompletion": {},
+        "formatterPriority": {},
         "rootPatterns": {},
         "requireRootPattern": {},
         "ignoredRootPaths": {},
@@ -587,7 +595,7 @@
     "diagnostic.warningSign": {
       "type": "string",
       "description": "Text of warning sign",
-      "default": "�"
+      "default": "⚠"
     },
     "diagnostic.infoSign": {
       "type": "string",
@@ -639,7 +647,7 @@
     "signature.target": {
       "type": "string",
       "description": "Target of signature help, use float when possible by default.",
-      "enum": ["float", "echo"]
+      "enum": ["float", "echo", "preview"]
     },
     "signature.floatMaxWidth": {
       "type": "integer",
@@ -669,7 +677,7 @@
     "codeLens.separator": {
       "type": "string",
       "description": "Separator text for codeLens in virtual text",
-      "default": "�"
+      "default": "‣"
     },
     "codeLens.subseparator": {
       "type": "string",
@@ -901,6 +909,7 @@
     "coc.preferences.jumpCommand": {
       "type": "string",
       "description": "Command used for location jump, like goto definition, goto references etc.",
+      "enum": ["edit", "split", "vsplit", "tabe", "drop", "tab drop"],
       "default": "edit"
     },
     "coc.preferences.messageLevel": {
@@ -1059,8 +1068,5 @@
         }
       }
     }
-  },
-
-  "clangd.path": "/home/sotiris/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd",
-  "clang.arguments":"[-I /home/sotiris/Projects/ForDay/engine/headers -I /home/sotiris/Projects/ForDay/game/headers -I /home/sotiris/Projects/ForDay/namespaces]"
+  }
 }
