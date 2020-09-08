@@ -28,6 +28,7 @@ set noerrorbells
 set expandtab
 set shiftround
 set nojoinspaces
+set cursorline
 
 ""MISC
 set confirm
@@ -66,6 +67,13 @@ call plug#begin('~/.vim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'frazrepo/vim-rainbow'
     Plug 'preservim/nerdcommenter'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'junegunn/fzf.vim'
+    Plug 'tpope/vim-surround'
+    Plug 'mattn/emmet-vim'
+    Plug 'dense-analysis/ale'
+    Plug 'tmhedberg/matchit'
+    Plug 'tpope/vim-fugitive'
     
 ""COC AUTOCOMPLETE REQUIREMENTS
     Plug 'jackguo380/vim-lsp-cxx-highlight'
@@ -73,14 +81,16 @@ call plug#begin('~/.vim/plugged')
 ""COLORS
 	Plug 'gruvbox-community/gruvbox'
 
-
 call plug#end()
-"
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""REMAPS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map ` :NERDTree <CR>
 let mapleader=" "
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""PLUGIN CONFIG
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -88,8 +98,31 @@ if executable('rg')
 	let g:rg_derive_root='true'
 endif
 
+"enable rainbow globaly
+let g:rainbow_active = 1
 
+"ale config dumped from web
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\}
+" Enable completion where available.
+" This setting must be set before ALE is loaded.
+"
+" You should not turn this setting on if you wish to use ALE as a completion
+" source for other completion plugins, like Deoplete.
+let g:ale_completion_enabled = 1
 
+"ALE supports automatic imports from external modules.
+let g:ale_completion_autoimport = 1
+
+"remaping go to definition function
+map <leader> g d : :ALEGoToDefinition
+
+"this line needs to be added for coc and ale to cooperate because ale has lsp
+"features itself
+"i also had to add "diagnostic.displayByAle": true to my coc-config
+let g:ale_disable_lsp = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""SET COLOR SCHEME

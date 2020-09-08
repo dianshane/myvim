@@ -1,4 +1,5 @@
 {
+  "diagnostic.displayByAle": true,
   "$schema": "http://json-schema.org/draft-06/schema",
   "description": "Configuration file for coc.nvim",
   "additionalProperties": false,
@@ -1068,5 +1069,6 @@
         }
       }
     }
-  }
+  },
+  "clangd.path": "/home/sotiris/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
 }
