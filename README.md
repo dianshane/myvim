@@ -13,7 +13,14 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 - jsonc
 - vim-rainbow
 - nerdcommenter
-- coc 
+- coc
+- gitgutter
+- fzf
+- vim-surround
+- emmet-vim
+- ale
+- matchit
+- vim-fugitive
 
     Since it is suggented by the developers of coc I also use vim-lsp-cxx-highlights.
 
@@ -31,5 +38,8 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 - coc-clangd
 - coc-markdownlint
 - coc-json
+- coc-tsserver
+- coc-html
+- coc-phpls
 
 NOTE: the configuration for coc was just copied and dumped from the internet and could probably be better.
