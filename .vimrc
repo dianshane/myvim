@@ -47,15 +47,25 @@ set incsearch
 set wildmenu
 
 ""SETTING DIRECTORIES
+silent !mkdir -p ~/.vim/backup
 set backupdir=~/.vim/backup//
+silent !mkdir -p ~/.vim/swap
 set directory=~/.vim/swap//
+silent !mkdir -p ~/.vim/undo
 set undodir=~/.vim/undo//
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""PLUG
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"CHECKING PLUG
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
+"CALLING PLUG
 call plug#begin('~/.vim/plugged')
 
 ""PLUGINS
