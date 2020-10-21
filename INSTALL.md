@@ -51,7 +51,9 @@ between the plug#begin and plug#end calls will be installed and added to vim.
 
 Let us first figure out what we need though.
 
-When using a code editor I, and I believe most of you expect three basic features:
+### the basics
+
+When using a code editor I, and I believe most of you expect *three basic features*:
 - Movement, highlighting and ease-of-use functionality.
 - good color highlights, variable trackings, namespaces etc...
 - autocompletition and linting and propably debuging if applicable
