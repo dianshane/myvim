@@ -1,5 +1,12 @@
 # vim
 
+----
+
+- TOC
+{:toc}
+
+----
+
 _**NOTE:**_ My vimrc has numerous plugins, all of which i use everyday.
 Since not everyone is as creazy as i am, this file only explains how to install the basic ones.
 For any additional info on any of the plugins used in my vimrc, or anything else concerning vim usage
@@ -146,7 +153,7 @@ to your vimrc and also add the line
 ```
  to your coc-config file!
 
-### final note
+### final notue - about the licence
 
 For those of you that are still alive despite the boredom and my bad humor, **CONGRATS**, 
 youre on the best way to become a vim user and burn your brain off like us!
