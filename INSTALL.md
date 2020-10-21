@@ -84,7 +84,7 @@ For autocompletion the choice is a one-way road: Conquer Of Completion or simply
 ---
 **a little history lesson**
 
-Coc utilizes the recently published language servers initally developed by Microsoft 
+> Coc utilizes the recently published language servers initally developed by Microsoft 
 (YES i didnt want to believe it either!) and connects lsp engines directly to vim!
 
 You propably have no idea what im talking about, like , what the fuck are lsp's!?
