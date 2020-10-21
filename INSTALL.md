@@ -167,7 +167,7 @@ Keep in mind that all of this is advisory and by no given means is it to be take
 
 **YOU ARE USING ALL OF THE ABOVE AT YOUR OWN RISK!**
 
-:warning:**DISCLAMER**: All of the above mentioned software and any other kind of used or implied copyrighted matterial is NOT owned by me 
+:warning:**DISCLAMER**: All of the mentioned software and any other kind of used or implied copyrighted matterial is NOT owned by me 
 but by the respectful owner and is subject to the licence under which its published!
 
 **Concerning my code**: unless optherwize stated it is usable under the GPL licence as described in the LICENCE file 
