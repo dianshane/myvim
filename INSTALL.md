@@ -81,9 +81,7 @@ Now lets move on to the real stuff. Autocompletion, linting and debuging.
 
 For autocompletion the choice is a one-way road: Conquer Of Completion or simply coc.
 
-<div class="panel panel-info">
-**a little history lesson**
-<div class="panel-body">
+##### **a little history lesson**
 
 Coc utilizes the recently published language servers initally developed by Microsoft 
 (YES i didnt want to believe it either!) and connects lsp engines directly to vim!
@@ -97,8 +95,6 @@ The bad thing is you propably are falling way behind developments and should rea
 but thats a topic for some other time!
 My warning paragraph.
 
-</div>
-</div>
 Now lets look at Coc and how to install it.
 
 You simply add the following line to your vimrc (after calling plug obviously):
