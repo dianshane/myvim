@@ -155,11 +155,10 @@ Keep in mind that all of this is advisory and by no given means is it to be take
 
 **YOU ARE USING ALL OF THE ABOVE AT YOUR OWN RISK!**
 
-:warning:**DISCLAMER**: All of the above mentioned software and/or website matterial is not owned by me 
-but by the respectful owner according to the licence under which its published!
+:warning:**DISCLAMER**: All of the above mentioned software and any other kind of used or implied copyrighted matterial is NOT owned by me 
+but by the respectful owner and is subject to the licence under which its published!
 
-Concerning my code: unless optherwize stated it is usable under the GPL licence as described in the LICENCE file 
+**Concerning my code**: unless optherwize stated it is usable under the GPL licence as described in the LICENCE file 
 that you downloaded along with the code.
 
-**BY USING ANY PART OF THIS REPO YOU AGREE TO THESE TERMS**
-
+**BY USING ANY PART OF THIS REPOSITORY IN ITS CURRENT, PAST OR FUTURE FORM, YOU AGREE TO THESE TERMS**
