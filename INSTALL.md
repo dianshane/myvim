@@ -1,7 +1,7 @@
 # vim
 
-{:toc}
-
+##TOC
+[vim plugins](#vim plugins)
 
 _**NOTE:**_ My vimrc has numerous plugins, all of which i use everyday.
 Since not everyone is as creazy as i am, this file only explains how to install the basic ones.
