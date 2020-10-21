@@ -99,8 +99,9 @@ Now lets look at Coc and how to install it.
 
 You simply add the following line to your vimrc (after calling plug obviously):
 
+```vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+```
 Coc on its own wont do anything!!!
 
 Its just the link between some language server/engine and vim. 
@@ -109,7 +110,7 @@ Just choose the ones you want and install them using the ":CocInstall" command.
 For example,to install c/c++ engine i would run ":CocInstall coc-clangd".
 After that just visit the plugins repository/site and read about the different options!
 
-CAUTION: Coc does  NOT work with the setpaste option of vim!
+:warning: Coc does  NOT work with the setpaste option of vim!
 If you use that option coc will break and there will be no completion!
 
 Now lets move on to linting!
@@ -123,10 +124,16 @@ ALE is a powerful linter that can help any developer find bugs and logical gaps
 
 To install ALE just add the following line to your vimrc (after you have called plug!):
 
+```vim
 Plug 'dense-analysis/ale'
+```
 
 ALE has lsp features itself so if you want to use it along with Coc like me you have to add:
-"let g:ale_disable_lsp = 1"
+```vim
+let g:ale_disable_lsp = 1
+```
 to your vimrc and also add the line
-"diagnostic.displayByAle" 
- to your coc-config file and set it to true!
+```json
+"diagnostic.displayByAle":"true" 
+```
+ to your coc-config file!
