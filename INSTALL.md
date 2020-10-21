@@ -98,6 +98,8 @@ everything will just work out of the box.
 The bad thing is you propably are falling way behind developments and should really start reading
 but thats a topic for some other time!
 
+</div>
+</div>
 Now lets look at Coc and how to install it.
 
 You simply add the following line to your vimrc (after calling plug obviously):
