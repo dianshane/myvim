@@ -1,6 +1,7 @@
 # vim
 
-##TOC
+## TOC
+
 [vim plugins](#vim plugins)
 
 _**NOTE:**_ My vimrc has numerous plugins, all of which i use everyday.
