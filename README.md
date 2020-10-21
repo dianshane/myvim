@@ -4,7 +4,7 @@ My *AWESOME* vimrc and coc configuration file!!!!!
 
 ## OVERVIEW
 
-*For installation guidelines please read the INSTALL file!*
+_**NOTE:**_*For installation guidelines please read the INSTALL file!*
 
 ### Vim plugins(using plug):
 
