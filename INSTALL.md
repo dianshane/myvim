@@ -102,6 +102,7 @@ You simply add the following line to your vimrc (after calling plug obviously):
 ```vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```
+
 Coc on its own wont do anything!!!
 
 Its just the link between some language server/engine and vim. 
@@ -112,6 +113,11 @@ After that just visit the plugins repository/site and read about the different o
 
 :warning: Coc does  NOT work with the setpaste option of vim!
 If you use that option coc will break and there will be no completion!
+
+Coc needs a configuration file in json format named "coc-config.json" where all the values are set.
+You can safely use mine since i have already done the configturation and coc is working perfectly with any language i have yet tried!
+
+#### ALE: linter..lets go!
 
 Now lets move on to linting!
 Many people find that Coc is enough for developing software.
