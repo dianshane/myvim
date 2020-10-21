@@ -53,13 +53,15 @@ Let us first figure out what we need though.
 
 ### the basics
 
-When using a code editor I, and I believe most of you expect *three basic features*:
+When using a code editor I, and I believe most of you expect **three basic features**:
 - Movement, highlighting and ease-of-use functionality.
 - good color highlights, variable trackings, namespaces etc...
 - autocompletition and linting and propably debuging if applicable
 
 Since vim has propably the most sophisticated command mode compared to any other editor 
 we really needn't worry about the first point mentioned.
+
+#### colorscheme
 
 What we now need, is to choose a colorscheme.
 Lucky for us there are thousands of colorschemes with unique  features and a variaty of 
@@ -69,7 +71,9 @@ tracking and type distinction.
 
 To install gruvebox just add this line to your vimrc, after calling plug (Plug#begin).
 
+```vim
 Plug 'gruvbox-community/gruvbox'
+```
 
 Now lets move on to the real stuff. Autocompletion, linting and debuging.
 
