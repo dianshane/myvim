@@ -61,7 +61,7 @@ When using a code editor I, and I believe most of you expect **three basic featu
 Since vim has propably the most sophisticated command mode compared to any other editor 
 we really needn't worry about the first point mentioned.
 
-#### colorscheme
+#### colorscheme: gruvebox to feel the groove
 
 What we now need, is to choose a colorscheme.
 Lucky for us there are thousands of colorschemes with unique  features and a variaty of 
@@ -75,9 +75,13 @@ To install gruvebox just add this line to your vimrc, after calling plug (Plug#b
 Plug 'gruvbox-community/gruvbox'
 ```
 
+#### automplete: Coc ftw!
+
 Now lets move on to the real stuff. Autocompletion, linting and debuging.
 
 For autocompletion the choice is a one-way road: Conquer Of Completion or simply coc.
+
+__**a little history lesson**__
 Coc utilizes the recently published language servers initally developed by Microsoft 
 (YES i didnt want to believe it either!) and connects lsp engines directly to vim!
 
