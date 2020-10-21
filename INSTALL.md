@@ -3,9 +3,9 @@
 ## TOC
 
 1. [vim plugins](#vim plugins)
-. [using a plugin manager](#using a plugin manager)
-. [the basics](#the basics)
-. [colorscheme](#colorscheme: gruvebox to feel the groove)
+2. [using a plugin manager](#using a plugin manager)
+3. [the basics](#the basics)
+    1. [colorscheme](#colorscheme: gruvebox to feel the groove)
 
 _**NOTE:**_ My vimrc has numerous plugins, all of which i use everyday.
 Since not everyone is as creazy as i am, this file only explains how to install the basic ones.
