@@ -9,44 +9,69 @@ syntax on
 
 "GENERAL
 set history=200
+"shows title as window title
 set title
+"always keeps cmd on even if not in command mode
 set showcmd
+"makes vim compatible with all terminals colors
 set termguicolors
+"cmd height is 2 lines instead of one
 set cmdheight=2
+"sets update time to 50ms
 set updatetime=50
+"sets error messages to short
 set shortmess+=c
 
 ""EDITOR
+"disables stupid vi residual behaviour
 set nocompatible
+"sets line numbers
 set nu
+"when presing backspace the given flags will be consumed/ignored/overriden
 set backspace=indent,eol,start
+"no wrapping of text at end of screen
 set nowrap
+"sets tab to 4 spaces instead of 8
 set tabstop=4 softtabstop=8
 set shiftwidth=4
+"current line is highlighted
 set ruler
+"disables the f***** error bells
 set noerrorbells
+"i dont even remember what these do :)
 set expandtab
 set shiftround
 set nojoinspaces
 set cursorline
 
 ""MISC
+"enables conformation prompt
 set confirm
 set hidden
+"disables modeline, just spam esc to make sure youre in command mode!
 set nomodeline
+"sets number format to octal
 set nrformats -=octal
 
 ""AUTOINDENT
+"enables autoindent
 set autoindent
+"enables the lisp auto indent engine
 set lisp
 
 ""SEARCH
+"enables highlighting of the word being searched
 set hls
+"smart case sensitive search
 set smartcase
+"will start showing results as soon as you start typing
 set incsearch
+"again no idea what this does!
 set wildmenu
 
 ""SETTING DIRECTORIES
+"eliminate stupid backup and swap files
+"vim will use the following directories instead
 silent !mkdir -p ~/.vim/backup
 set backupdir=~/.vim/backup//
 silent !mkdir -p ~/.vim/swap
@@ -54,7 +79,8 @@ set directory=~/.vim/swap//
 silent !mkdir -p ~/.vim/undo
 set undodir=~/.vim/undo//
 
-
+"from here onwards no explanation is given. Please just read the INSTALL file
+"for info about the pluggins being used
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""PLUG
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
