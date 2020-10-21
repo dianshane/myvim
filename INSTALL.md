@@ -1,6 +1,6 @@
 # vim
 
-_**NOTE**_ My vimrc has numerous plugins, all of which i use everyday.
+_**NOTE:**_ My vimrc has numerous plugins, all of which i use everyday.
 Since not everyone is as creazy as i am, this file only explains how to install the basic ones.
 For any additional info on any of the plugins used in my vimrc, or anything else concerning vim usage
 please email me at sotiris4321@gmail.com
@@ -43,7 +43,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 ```
 
-If youre trying this on windows please reffer here since installation is NOT the same.
+:warning: If youre trying this on windows please reffer here since installation is NOT the same.
 
 As you can propably guess by reading the script above, to install any plugins 
 and/or add new ones we simply run ":PlugInstall" from whithin vim. Any plugin that is included 
