@@ -1,3 +1,4 @@
+#vim plugins
 Note: My vimrc has numerous plugins, all of which i use everyday.
 Since not everyone is as creazy as i am, this file only explains how to install the basic ones.
 For any additional info on any of the plugins used in my vimrc, or anything else concerning vim usage
