@@ -18,6 +18,8 @@ Although we could simpy=ly download the plugins by hand
 and simply place them inside the corresponding dirs, I will show you the more relaxed, automatic
 way: Using a plugin manager!
 
+### using a pluggin manager
+
 I will demostrate using "Plugged" but you can use any other manager you wish 
 and everything should be fairly the same!
 
