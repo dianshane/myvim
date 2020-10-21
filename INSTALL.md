@@ -1,4 +1,4 @@
-# vim plugins
+# vim
 
 :warning: My vimrc has numerous plugins, all of which i use everyday.
 Since not everyone is as creazy as i am, this file only explains how to install the basic ones.
@@ -7,6 +7,8 @@ please email me at sotiris4321@gmail.com
 
 Also a good practice would be to check this repo from time to time 
 since I update it regurarly adding new features and extending old ones!
+
+## vim plugins
 
 To experience the real power of vim we have to use pluggins.
 Pluggins in vim can be compared to libraries in a language. i
