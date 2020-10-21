@@ -103,7 +103,7 @@ You simply add the following line to your vimrc (after calling plug obviously):
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```
 
-Coc on its own wont do anything!!!
+**Coc on its own wont do anything!!!**
 
 Its just the link between some language server/engine and vim. 
 Following the link below you can find all available lsp engines.
