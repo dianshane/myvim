@@ -81,9 +81,8 @@ Now lets move on to the real stuff. Autocompletion, linting and debuging.
 
 For autocompletion the choice is a one-way road: Conquer Of Completion or simply coc.
 
-```
 **a little history lesson**
-
+```
 Coc utilizes the recently published language servers initally developed by Microsoft 
 (YES i didnt want to believe it either!) and connects lsp engines directly to vim!
 
