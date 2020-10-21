@@ -14,19 +14,21 @@ To experience the real power of vim we have to use pluggins.
 Pluggins in vim can be compared to libraries in a language. i
 They extend the basic functionality of vim and add more features.
 
+### using a pluggin manager
+
 Although we could simpy=ly download the plugins by hand 
 and simply place them inside the corresponding dirs, I will show you the more relaxed, automatic
 way: Using a plugin manager!
-
-### using a pluggin manager
 
 I will demostrate using "Plugged" but you can use any other manager you wish 
 and everything should be fairly the same!
 
 To download and enable plug, we just have to run 
 
+```bash
   "curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+```
 
 in our terminal.
 
