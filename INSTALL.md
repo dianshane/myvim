@@ -111,6 +111,8 @@ Just choose the ones you want and install them using the ":CocInstall" command.
 For example,to install c/c++ engine i would run ":CocInstall coc-clangd".
 After that just visit the plugins repository/site and read about the different options!
 
+https://github.com/neoclide/coc.nvim/wiki/Language-servers
+
 :warning: Coc does  NOT work with the setpaste option of vim!
 If you use that option coc will break and there will be no completion!
 
