@@ -26,8 +26,8 @@ and everything should be fairly the same!
 To download and enable plug, we just have to run 
 
 ```bash
-  "curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+  curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+  \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 in our terminal.
