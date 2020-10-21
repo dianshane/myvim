@@ -99,7 +99,11 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map ` :NERDTree <CR>
 let mapleader=" "
-
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"fugitive
+nnoremap <leader>ga :Git add . <CR>
+map <Leader>gg :Git commit <CR>
+map <Leader>gp :Git push <CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""PLUGIN CONFIG
