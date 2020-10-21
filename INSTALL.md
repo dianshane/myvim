@@ -143,3 +143,23 @@ to your vimrc and also add the line
 "diagnostic.displayByAle":"true" 
 ```
  to your coc-config file!
+
+##### final note
+
+For those of you that are still alive despite the boredom and my bad humor, **CONGRATS**, 
+youre on the best way to become a vim user and burn your brain off like us!
+
+If you would like to contribute with any ideas or suggestions  or any given questions please contact me at sotiris4321@gmail.com
+
+Keep in mind that all of this is advisory and by no given means is it to be taken as fail-proof or official!
+
+**YOU ARE USING ALL OF THE ABOVE AT YOUR OWN RISK!**
+
+Disclamer: All of the above mentioned software and/or website matterial is not owned by me 
+but by the respectful owner according to the licence under which its published!
+
+Concerning my code: unless optherwize stated it is usable under the GPL licence as described in the LICENCE file 
+that you downloaded along with the code.
+
+**BY USING ANY PART OF THIS REPO YOU AGREE TO THESE TERMS**
+
