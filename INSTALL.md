@@ -83,7 +83,6 @@ For autocompletion the choice is a one-way road: Conquer Of Completion or simply
 
 <div class="panel panel-info">
 **a little history lesson**
-
 {: .panel-heading}
 <div class="panel-body">
 
