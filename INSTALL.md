@@ -83,7 +83,6 @@ For autocompletion the choice is a one-way road: Conquer Of Completion or simply
 
 <div class="panel panel-info">
 **a little history lesson**
-{: .panel-heading}
 <div class="panel-body">
 
 Coc utilizes the recently published language servers initally developed by Microsoft 
@@ -97,7 +96,6 @@ everything will just work out of the box.
 The bad thing is you propably are falling way behind developments and should really start reading
 but thats a topic for some other time!
 My warning paragraph.
-{: .alert .alert-warning}
 
 </div>
 </div>
