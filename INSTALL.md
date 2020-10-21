@@ -2,7 +2,7 @@
 
 ## TOC
 
-. [vim plugins](#vim plugins)
+1. [vim plugins](#vim plugins)
 . [using a plugin manager](#using a plugin manager)
 . [the basics](#the basics)
 . [colorscheme](#colorscheme: gruvebox to feel the groove)
