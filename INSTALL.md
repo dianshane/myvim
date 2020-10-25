@@ -15,6 +15,11 @@ Since not everyone is as creazy as i am, this file only explains how to install 
 For any additional info on any of the plugins used in my vimrc, or anything else concerning vim usage
 please email me at sotiris4321@gmail.com
 
+To install my configuration please do the following:
+- run the install script 
+- open vim and run ":PlugInstall".
+- run ":CocInstall <desired plugins>" to install the autcompletion plugins you want(for example ":CocInstall coc-clangd"). You can find the ones I use in the README file.
+
 Also a good practice would be to check this repo from time to time 
 since I update it regurarly adding new features and extending old ones!
 
