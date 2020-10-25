@@ -110,6 +110,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'dense-analysis/ale'
     Plug 'tmhedberg/matchit'
     Plug 'tpope/vim-fugitive'
+    Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
     
 ""COC AUTOCOMPLETE REQUIREMENTS
     Plug 'jackguo380/vim-lsp-cxx-highlight'
