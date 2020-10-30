@@ -1,5 +1,7 @@
 {
-  "diagnostic.displayByAle": true,
+  "clangd.semanticHighlighting":true,
+  "diagnostic.checkCurrentLine": true,
+  /*"diagnostic.displayByAle": true,*/
   "$schema": "http://json-schema.org/draft-06/schema",
   "description": "Configuration file for coc.nvim",
   "additionalProperties": false,
