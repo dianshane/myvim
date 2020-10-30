@@ -174,11 +174,11 @@ to your vimrc and also add the line
 
 # MyVim
 
-My *AWESOME* vimrc and coc configuration file!!!!!
+My *AWESOME* vimrc and coc configuration in short!!!!!
 
 ## OVERVIEW
 
-_**NOTE:**_*For installation guidelines please read the INSTALL file!*
+_**NOTE:**_*For installation guidelines please read this file from the top!*
 
 ### Vim plugins(using plug):
 
