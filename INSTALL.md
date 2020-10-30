@@ -167,7 +167,7 @@ let g:ale_disable_lsp = 1
 ```
 to your vimrc and also add the line
 ```json
-"diagnostic.displayByAle":"true" 
+"diagnostic.displayByAle":true 
 ```
  to your coc-config file!
 
