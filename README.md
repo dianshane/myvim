@@ -196,6 +196,7 @@ _**NOTE:**_*For installation guidelines please read this file from the top!*
 - emmet-vim
 - matchit
 - vim-fugitive
+- lighline
 
     Since it is suggented by the developers of coc I also use vim-lsp-cxx-highlights.
 

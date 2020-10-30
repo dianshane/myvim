@@ -36,6 +36,9 @@ set hidden
 set nomodeline
 set nrformats -=octal
 set signcolumn=number
+"for lightline
+set noshowmode
+set laststatus=2
 
 ""AUTOINDENT
 set autoindent
@@ -78,6 +81,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'tmhedberg/matchit'
 	Plug 'sheerun/vim-polyglot'
     Plug 'honza/vim-snippets'
+    Plug 'itchyny/lightline.vim'
     "files
 	Plug 'https://github.com/preservim/nerdtree.git'
     Plug 'junegunn/fzf.vim'
@@ -163,7 +167,11 @@ let g:go_auto_sameids = 1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""SET COLOR SCHEME
+""SET COLOR SCHEME AND LIGHTLINE SCHEME
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme gruvbox
 set background=dark
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
