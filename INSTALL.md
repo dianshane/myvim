@@ -142,7 +142,7 @@ I  personally have **stopped using it completely** but am leving this config her
 **Sugestion:** just use 
 
 ```json
-"diagnostic.checkCurrentLine": true,
+"diagnostic.checkCurrentLine": true
 ```
 in your CocConfig and you should have the same powerful linting using the much much much much faster lsp engine of coc.
 
