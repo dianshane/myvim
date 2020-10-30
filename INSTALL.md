@@ -137,9 +137,9 @@ You can safely use mine since i have already done the configturation and coc is 
 #### ALE: linter..lets go!
 
 :warning: when editing large files (>150-200 lines) ALE is **SERIOUSLY SLOW**. 
-I  personally have stopped using it but am leving this config here for anyne who still wants to give it a try! 
+I  personally have **stopped using it completely** but am leving this config here for anyne who still wants to give it a try! 
 
-**Sugestion:** just use the "" option for Coc and you should have the same powerful linting using the much much much much faster lsp engine of coc.
+**Sugestion:** just use the "diagnostic.checkCurrentLine": true" option in your CocConfig and you should have the same powerful linting using the much much much much faster lsp engine of coc.
 
 Now lets move on to linting!
 Many people find that Coc is enough for developing software.
