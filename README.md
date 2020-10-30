@@ -20,7 +20,6 @@ _**NOTE:**_*For installation guidelines please read the INSTALL file!*
 - fzf
 - vim-surround
 - emmet-vim
-- ale
 - matchit
 - vim-fugitive
 
