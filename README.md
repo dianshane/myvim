@@ -17,7 +17,8 @@ For any additional info on any of the plugins used in my vimrc, or anything else
 please email me at sotiris4321@gmail.com
 
 To install my configuration please do the following:
-- run the install script 
+- run the install.sh script. If installing for the first time please REMOVE ~/.vim and run the 'install_new'. It will make sure you have the correct structure and that plugged is installed.
+- Please read the above! DO NOT RUN install.sh unless youre sure. It will not work and will propably confuse you!!!
 - open vim and run ":PlugInstall".
 - run ":CocInstall <desired plugins>" to install the autcompletion plugins you want(for example ":CocInstall coc-clangd"). You can find the ones I use in the README file.
 
