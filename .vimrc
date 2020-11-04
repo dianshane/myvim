@@ -82,6 +82,11 @@ call plug#begin('~/.vim/plugged')
 	Plug 'sheerun/vim-polyglot'
     Plug 'honza/vim-snippets'
     Plug 'itchyny/lightline.vim'
+    Plug 'amiorin/vim-project'
+    Plug 'preservim/tagbar'
+    "tags
+    Plug 'ludovicchabant/vim-gutentags'
+    Plug 'majutsushi/tagbar' "requires exuberant-ctags
     "files
 	Plug 'https://github.com/preservim/nerdtree.git'
     Plug 'junegunn/fzf.vim'
@@ -103,7 +108,12 @@ call plug#begin('~/.vim/plugged')
     Plug 'garbas/vim-snipmate'
     Plug 'grvcoelho/vim-javascript-snippets', {
     \ 'do': 'npm install'}
-    
+    "php
+    Plug 'roxma/nvim-yarp'
+    Plug 'StanAngeloff/php.vim'
+    Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
+    Plug 'stephpy/vim-php-cs-fixer' 
+
 ""COC AUTOCOMPLETE REQUIREMENTS (as sugested by the developers)
     Plug 'jackguo380/vim-lsp-cxx-highlight'
     
@@ -164,7 +174,6 @@ let g:go_highlight_generate_tags = 1
 let g:go_highlight_format_strings = 1
 let g:go_highlight_variable_declarations = 1
 let g:go_auto_sameids = 1
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""SET COLOR SCHEME AND LIGHTLINE SCHEME
