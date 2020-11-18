@@ -29,6 +29,7 @@ set noexpandtab
 set shiftround
 set nojoinspaces
 set cursorline
+set undofile
 
 ""MISC
 set confirm
