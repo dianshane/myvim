@@ -62,6 +62,8 @@ endif
 
 :warning: If youre trying this on windows please reffer here since installation is NOT the same.
 
+https://github.com/junegunn/vim-plug
+
 As you can propably guess by reading the script above, to install any plugins 
 and/or add new ones we simply run ":PlugInstall" from whithin vim. Any plugin that is included 
 between the plug#begin and plug#end calls will be installed and added to vim.
