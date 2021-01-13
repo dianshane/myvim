@@ -21,7 +21,7 @@ set nocompatible
 set nu
 set backspace=indent,eol,start
 set nowrap
-set tabstop=4 softtabstop=4
+set tabstop=4 softtabstop=8
 set shiftwidth=4
 set ruler
 set noerrorbells
