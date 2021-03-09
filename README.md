@@ -22,8 +22,12 @@ To install my configuration please do the following:
 - open vim and run ":PlugInstall".
 - run ":CocInstall <desired plugins>" to install the autcompletion plugins you want(for example ":CocInstall coc-clangd"). You can find the ones I use in the README file.
 
+:warning: please read the <a href="REQUIREMENTS.md">requirements</a> to make sure your environment is prepared otherwise the script will fail
+
 Also a good practice would be to check this repo from time to time 
 since I update it regurarly adding new features and extending old ones!
+
+You can always find the changes <a href="RELEASE_NOTES.md">here</a>.
 
 ## vim plugins
 
@@ -33,7 +37,7 @@ They extend the basic functionality of vim and add more features.
 
 ### using a pluggin manager
 
-Although we could simpy=ly download the plugins by hand 
+Although we could simply download the plugins by hand 
 and simply place them inside the corresponding dirs, I will show you the more relaxed, automatic
 way: Using a plugin manager!
 
