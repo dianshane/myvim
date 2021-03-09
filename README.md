@@ -154,6 +154,8 @@ I  personally have **stopped using it completely** but am leving this config her
 ```
 in your CocConfig and you should have the same powerful linting using the much much much much faster lsp engine of coc.
 
+### If you still want to try it here is my old config:
+
 Now lets move on to linting!
 Many people find that Coc is enough for developing software.
 Personally i want a more "intelligent" view of my code, i
