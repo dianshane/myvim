@@ -88,9 +88,11 @@ call plug#begin('~/.vim/plugged')
     "Plug 'honza/vim-snippets'
     Plug 'itchyny/lightline.vim'
     "Plug 'amiorin/vim-project'
+    Plug 'itchyny/vim-cursorword'
+    Plug 'machakann/vim-highlightedyank'
     "tags
-    "Plug 'preservim/tagbar'
-    "Plug 'ludovicchabant/vim-gutentags'
+    Plug 'preservim/tagbar'
+    Plug 'ludovicchabant/vim-gutentags'
     "files
     Plug 'https://github.com/preservim/nerdtree.git'
     "Plug 'junegunn/fzf.vim'
@@ -104,17 +106,18 @@ call plug#begin('~/.vim/plugged')
     "c++
     Plug 'vim-jp/vim-cpp'
     "html
-    "Plug 'mattn/emmet-vim'
+    Plug 'mattn/emmet-vim'
     "javascript
-    "Plug 'pangloss/vim-javascript'
+    Plug 'pangloss/vim-javascript'
     "Plug 'MarcWeber/vim-addon-mw-utils'
     "Plug 'grvcoelho/vim-javascript-snippets', {
     "\ 'do': 'npm install'}
     "php
-    "Plug 'roxma/nvim-yarp'
-    "Plug 'StanAngeloff/php.vim'
-    "Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
-    "Plug 'stephpy/vim-php-cs-fixer' 
+	Plug 'StanAngeloff/php.vim'
+	Plug 'stephpy/vim-php-cs-fixer' 
+	Plug 'ncm2/ncm2'
+	Plug 'roxma/nvim-yarp'
+	Plug 'phpactor/ncm2-phpactor'
 
 ""COC AUTOCOMPLETE REQUIREMENTS (as sugested by the developers)
     Plug 'jackguo380/vim-lsp-cxx-highlight'
@@ -131,6 +134,11 @@ call plug#end()
 map ` :NERDTree <CR>
 let mapleader=" "
 nmap <LEADER>hh :CocCommand clangd.switchSourceHeader <CR>
+nmap <F1> :TagbarToggle<CR>
+
+nmap <Leader>q :Bdelete<CR>
+
+autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -146,33 +154,33 @@ let g:rainbow_active = 1
 "let g:prettier#autoformat_require_pragma = 1
 "let g:prettier#config#config_precedence = 'file-override'
 
-""vim-javascript config
-"let g:javascript_plugin_jsdoc = 1
-"let g:javascript_plugin_ngdoc = 1
-"let g:javascript_plugin_flow = 1
+"vim-javascript config
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
 
-"augroup javascript_folding
-    "au!
-    "au FileType javascript setlocal foldmethod=syntax
-"augroup END
+augroup javascript_folding
+    au!
+    au FileType javascript setlocal foldmethod=syntax
+augroup END
 
 
 
 """polyglot config
-"let g:go_highlight_build_constraints = 1
-"let g:go_highlight_extra_types = 1
-"let g:go_highlight_fields = 1
-"let g:go_highlight_functions = 1
-"let g:go_highlight_methods = 1
-"let g:go_highlight_operators = 1
-"let g:go_highlight_structs = 1
-"let g:go_highlight_types = 1
-"let g:go_highlight_function_parameters = 1
-"let g:go_highlight_function_calls = 1
-"let g:go_highlight_generate_tags = 1
-"let g:go_highlight_format_strings = 1
-"let g:go_highlight_variable_declarations = 1
-"let g:go_auto_sameids = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_types = 1
+let g:go_highlight_function_parameters = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_generate_tags = 1
+let g:go_highlight_format_strings = 1
+let g:go_highlight_variable_declarations = 1
+let g:go_auto_sameids = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """SET COLOR SCHEME AND LIGHTLINE SCHEME
